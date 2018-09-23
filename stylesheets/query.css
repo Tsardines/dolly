@@ -104,6 +104,11 @@
     width: auto;
   }
 
+  .main-container {
+    height: auto;
+    width: auto;
+  }
+
       .nav-ul {
         display: block;
       }
@@ -145,10 +150,47 @@
     .my-face {
       background-color: turquoise;
       height: 12.5vh;
-      margin: 30% 1em 0 0;
+      margin: 20% 1.5em 0 0;
       width: 15vw;
     }
 
+  .tech {
+    background-color: turquoise;
+  }
 
+  .tech ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+  }
+
+  .text {
+    font-size: 1.1em;
+  }
+
+  .tech img {
+    display: block;
+    flex-wrap: wrap;
+    height: 90px;
+    width: 90px;
+  }
+
+    .projects-cont {
+      background-color: orange;
+    }
+
+    .projects-cont li {
+      list-style-type: none;
+    }
+
+    .project-text {
+      font-size: 1.3em;
+      background-color: turquoise;
+    }
+
+    .projects-cont img {
+      height: 50vh;
+      width: 70vw;
+    }
 
 }
