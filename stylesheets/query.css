@@ -100,6 +100,7 @@
 
   body {
     background-color: purple;
+    height: auto;
     width: auto;
   }
 
@@ -116,19 +117,37 @@
   .name {
     background-color: turquoise;
     font-family: 'Freakshow';
-    font-size: 2em;
+    font-size: 2.75em;
     margin-top: 1em;
-    padding: 1.25em;
+    padding: 1.15em;
     text-align: center;
-    transform: rotateZ(-16deg);
+    transform: rotateZ(-14deg);
   }
 
   .headline {
     background-color: orange;
     font-size: 1.75em;
-    padding: 1.25em;
-    text-align: center;
+    padding: 1em;
+    text-align: right;
   }
+
+    .middle-third {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .about {
+      background-color: pink;
+      padding: 0 1em 0 1em;
+      width: 40%;
+    }
+
+    .my-face {
+      background-color: turquoise;
+      height: 12.5vh;
+      margin: 30% 1em 0 0;
+      width: 15vw;
+    }
 
 
 
