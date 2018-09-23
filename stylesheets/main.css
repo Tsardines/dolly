@@ -1,0 +1,20 @@
+body {
+  background-color: #f2e5ca;
+  border: 1.15em solid #000;
+  border-radius: 0.25em;
+  border-style: double outset;
+  height: 100vh;
+  margin: 0 auto;
+  width: 100vh;
+/*---------- Main Container ---------- */
+/*---------- Top Third ---------- */
+/*---------- Nav ---------- */
+/*---------- Headline ---------- */
+/*---------- Name ---------- */
+}
+body .nav-ul {
+  display: inline-block;
+  list-style-type: none;
+}
+/*---------- Middle Third ---------- */
+/*---------- Bottom Third ---------- */
