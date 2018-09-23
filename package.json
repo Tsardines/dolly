@@ -1,0 +1,22 @@
+{
+  "name": "apothecary",
+  "version": "1.0.0",
+  "description": "An apothecary-themed page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tsardines/apothecary.git"
+  },
+  "author": "haley sulcer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tsardines/apothecary/issues"
+  },
+  "homepage": "https://github.com/Tsardines/apothecary#readme",
+  "dependencies": {
+    "stylus": "^0.54.5"
+  }
+}
