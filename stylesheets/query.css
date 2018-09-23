@@ -17,6 +17,9 @@
 
 }
 
+
+
+
 /*
   ##Device = Laptops, Desktops
   ##Screen = B/w 1025px to 1280px
@@ -31,8 +34,11 @@
 
 }
 
+
+
+
 /*
-  ##Device = Tablets, Ipads (portrait)
+  ##Device = Tablets, iPads (portrait)
   ##Screen = B/w 768px to 1024px
 */
 
@@ -46,8 +52,11 @@
 
 }
 
+
+
+
 /*
-  ##Device = Tablets, Ipads (landscape)
+  ##Device = Tablets, iPads (landscape)
   ##Screen = B/w 768px to 1024px
 */
 
@@ -60,6 +69,9 @@
 
 
 }
+
+
+
 
 /*
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -76,6 +88,9 @@
 
 }
 
+
+
+
 /*
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
@@ -87,6 +102,34 @@
     background-color: purple;
     width: auto;
   }
+
+      .nav-ul {
+        display: block;
+      }
+
+      li {
+        float: left;
+        padding: 1em;
+        text-align: center;
+      }
+
+  .name {
+    background-color: turquoise;
+    font-family: 'Freakshow';
+    font-size: 2em;
+    margin-top: 1em;
+    padding: 1.25em;
+    text-align: center;
+    transform: rotateZ(-16deg);
+  }
+
+  .headline {
+    background-color: orange;
+    font-size: 1.75em;
+    padding: 1.25em;
+    text-align: center;
+  }
+
 
 
 }
