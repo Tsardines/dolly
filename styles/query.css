@@ -82,8 +82,47 @@
 
   body {
     background-color: turquoise;
-    width: auto;
+    border: 1.5em solid black;
+    border-radius: 0.2em;
+    border-style: double outset;
   }
+
+  .nav-ul {
+    display: block;
+  }
+
+  .nav-ul li {
+    font-size: 4em;
+    list-style-type: none;
+    padding: 2em;
+    text-align: center;
+  }
+
+    .intro {
+      background-color: pink;
+      float: left;
+      font-size: 3.42em;
+      margin: 1em 0 0 0;
+      text-align: right;
+    }
+
+    .name {
+      background-color: green;
+      float: right;
+      font-size: 5.15em;
+      padding: 0.4em;
+      text-align: center;
+      transform: rotateZ(-11deg);
+    }
+
+    .headline {
+      background-color: orange;
+      float: right;
+      font-size: 2.75em;
+      margin-top: 2.75em;
+      padding: 1em;
+      text-align: right;
+    }
 
 
 }
@@ -111,7 +150,7 @@
         display: block;
       }
 
-      li {
+      .nav-ul li {
         float: left;
         list-style-type: none;
         padding: 1em;
