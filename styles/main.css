@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Freakshow";
+  src: url("stylesheets/fonts/Carnevalee-Freakshow.ttf") format('truetype');
+}
+  @font-face {
+    font-family: "FellType";
+    src: url("stylesheets/fonts/HistoricalFellTypeRoman.ttf") format('truetype');
+  }
+
+body {
+  background-color: #f2e5ca;
+  border: 1.15em solid #000;
+  border-radius: 0.2em;
+  border-style: double outset;
+  font-family: 'FellType';
+  height: auto;
+  margin: 0 auto;
+  width: auto;
+/*---------- Main Container ---------- */
+/*---------- Top Third ---------- */
+/*---------- Middle Third ---------- */
+/*---------- Bottom Third ---------- */
+}
+body .name {
+  font-family: 'Freakshow';
+/*---------- Nav ---------- */
+/*---------- Headline ---------- */
+/*---------- Name ---------- */
+}
+body .name .nav-ul {
+  display: inline-block;
+  font-family: 'FellType';
+  list-style-type: none;
+}
