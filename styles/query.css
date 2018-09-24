@@ -120,9 +120,18 @@
         text-align: center;
       }
 
+  .intro {
+    background-color: pink;
+    float: left;
+    font-size: 1em;
+    height: 11vh;
+    margin: 4em 0 0 0;
+    text-align: center;
+    width: 20vw;
+  }
+
   .name {
     /* background-color: turquoise; */
-    /* font-family: 'Freakshow'; */
     font-size: 2.75em;
     margin-top: 1em;
     padding: 1.15em;
@@ -192,6 +201,20 @@
     .projects-cont img {
       height: 50vh;
       width: 70vw;
+    }
+
+  .footer {
+    margin-bottom: 4em;
+  }
+
+  .footer-ul li {
+    background-color: turquoise;
+    display: flex;
+    word-wrap: wrap;
+  }
+
+    .copyright p {
+      margin-top: 5em;
     }
 
 }
