@@ -88,13 +88,14 @@
   }
 
   .nav-ul {
-    display: block;
+    display: flex;
   }
 
   .nav-ul li {
-    font-size: 4em;
+    background-color: orange;
+    font-size: 2.3em;
     list-style-type: none;
-    padding: 2em;
+    padding: 1em;
     text-align: center;
   }
 
@@ -124,8 +125,26 @@
       text-align: right;
     }
 
+  .middle-third {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .about {
+    background-color: blue;
+    float: left;
+    margin-top: 1em;
+    padding: 0 1em 0 1em;
+    width: 50%;
+  }
+
 
 }
+
+
+
+
+
 
 
 
