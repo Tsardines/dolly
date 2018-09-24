@@ -100,13 +100,11 @@
 
   body {
     background-color: purple;
-    height: auto;
-    width: auto;
-  }
-
-  .main-container {
-    height: auto;
-    width: auto;
+    border: 1.1em solid black;
+    border-radius: 0.2em;
+    border-style: double outset;
+    /* height: auto;
+    width: auto; */
   }
 
       .nav-ul {
@@ -153,6 +151,7 @@
 
     .about {
       background-color: pink;
+      margin-top: 1em;
       padding: 0 1em 0 1em;
       width: 40%;
     }
@@ -185,11 +184,8 @@
     width: 90px;
   }
 
-    .projects-cont {
-      background-color: orange;
-    }
-
     .projects-cont li {
+      background-color: orange;
       list-style-type: none;
     }
 
@@ -210,11 +206,16 @@
   .footer-ul li {
     background-color: turquoise;
     display: flex;
-    word-wrap: wrap;
+    justify-content: center;
+    word-wrap: normal;
   }
 
-    .copyright p {
-      margin-top: 5em;
+    .copy-p {
+      background-color: red;
+      float: right;
+      font-size: 1.14em;
+      margin-top: 2.5em;
+      text-align: center;
     }
 
 }

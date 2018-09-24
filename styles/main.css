@@ -1,23 +1,6 @@
-/* @font-face {
-	font-family: 'Freakshow';
-	src: url('Carnevalee-Freakshow.eot?#iefix') format('embedded-opentype'),
-	     url('Carnevalee-Freakshow.woff') format('woff'),
-	     url('Carnevalee-Freakshow.ttf')  format('truetype'),
-	     url('Carnevalee-Freakshow.svg#svgFontName') format('svg');
-	} */
-
-  @font-face {
-  font-family: 'Carnevalee-Freakshow';
-  src:
-       url('/Users/haley/Documents/fonts/Freakshow/carnivalee-freakshow 2/Carnevalee Freakshow/Carnevalee Freakshow.ttf');
-   font-style: normal;
-    font-weight: normal;
-}
-
-
 body {
   background-color: #f2e5ca;
-  border: 1.15em solid #000;
+  border: 1.1em solid #000;
   border-radius: 0.2em;
   border-style: double outset;
   font-family: 'FellType';
