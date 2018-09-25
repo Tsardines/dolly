@@ -82,10 +82,12 @@
 
   body {
     background-color: turquoise;
-    border: 1.5em solid black;
-    border-radius: 0.2em;
-    border-style: double outset;
+    width: 300vw;
   }
+
+  /* .main-container {
+    width: 100vw;
+} */
 
   .nav-ul {
     display: flex;
@@ -104,6 +106,7 @@
       float: left;
       font-size: 3.42em;
       margin: 1em 0 0 0;
+      position: absolute;
       text-align: right;
     }
 
@@ -112,37 +115,58 @@
       float: right;
       font-size: 5.15em;
       padding: 0.4em;
+      position: absolute;
       text-align: center;
       transform: rotateZ(-11deg);
     }
 
-    .headline {
+    .headline p {
       background-color: orange;
       float: right;
       font-size: 2.75em;
-      margin-top: 2.75em;
+      margin-top: 5.75em;
       padding: 1em;
+      position: absolute;
       text-align: right;
     }
 
   .middle-third {
+    background-color: white;
     display: flex;
     justify-content: space-around;
   }
 
-  .about {
+  .about p {
     background-color: blue;
     float: left;
-    margin-top: 1em;
+    font-size: 3em;
+    margin-top: 10em;
     padding: 0 1em 0 1em;
-    width: 50%;
+    width: 80vw;
+  }
+
+  .my-face {
+    background-color: pink;
+    height: 22.5vh;
+    margin: 2em;
+    width: 55vw; }
+
+  .tech { background-color: red; display: flex; }
+
+  .tech ul { display: flex; flex-wrap: wrap; list-style-type: none; }
+
+  .text { font-size: 2.75em; }
+
+  .tech img {
+    display: block;
+    flex-wrap: wrap;
+    height: 42vh;
+    width: 44vw;
   }
 
 
+
 }
-
-
-
 
 
 
@@ -156,124 +180,42 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
 
-  body {
-    background-color: purple;
-    border: 1.1em solid black;
-    border-radius: 0.2em;
-    border-style: double outset;
-    /* height: auto;
-    width: auto; */
-  }
+  body { background-color: purple; border: 1.1em solid black; border-radius: 0.2em; border-style: double outset; }
 
-      .nav-ul {
-        display: block;
-      }
+      .nav-ul { display: block; }
 
-      .nav-ul li {
-        float: left;
-        list-style-type: none;
-        padding: 1em;
-        text-align: center;
-      }
+      .nav-ul li { float: left; list-style-type: none; padding: 1em; text-align: center; }
 
-  .intro {
-    background-color: pink;
-    float: left;
-    font-size: 1em;
-    height: 11vh;
-    margin: 4em 0 0 0;
-    text-align: center;
-    width: 20vw;
-  }
+  .intro { background-color: pink; float: left; font-size: 1em; height: 11vh; margin: 4em 0 0 0; text-align: center; width: 20vw; }
 
-  .name {
-    /* background-color: turquoise; */
-    font-size: 2.75em;
-    margin-top: 1em;
-    padding: 1.15em;
-    text-align: center;
-    transform: rotateZ(-14deg);
-  }
+  .name { font-size: 2.75em; margin-top: 1em; padding: 1.15em; text-align: center; transform: rotateZ(-14deg); }
 
-  .headline {
-    background-color: orange;
-    font-size: 1.75em;
-    padding: 1em;
-    text-align: right;
-  }
+  .headline { background-color: orange; font-size: 1.75em; padding: 1em; text-align: right; }
 
-    .middle-third {
-      display: flex;
-      justify-content: space-around;
-    }
+    .middle-third { display: flex;  justify-content: space-around; }
 
-    .about {
-      background-color: pink;
-      margin-top: 1em;
-      padding: 0 1em 0 1em;
-      width: 40%;
-    }
+    .about { background-color: pink;  margin-top: 1em;  padding: 0 1em 0 1em;  width: 40%; }
 
-    .my-face {
-      background-color: turquoise;
-      height: 12.5vh;
-      margin: 20% 1.5em 0 0;
-      width: 15vw;
-    }
+    .my-face { background-color: turquoise; height: 12.5vh; margin: 20% 1.5em 0 0; width: 15vw; }
 
-  .tech {
-    background-color: turquoise;
-  }
+  .tech { background-color: turquoise; }
 
-  .tech ul {
-    display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-  }
+  .tech ul { display: flex; flex-wrap: wrap; list-style-type: none; }
 
-  .text {
-    font-size: 1.1em;
-  }
+  .text { font-size: 1.1em; }
 
-  .tech img {
-    display: block;
-    flex-wrap: wrap;
-    height: 90px;
-    width: 90px;
-  }
+  .tech img { display: block; flex-wrap: wrap; height: 90px; width: 90px; }
 
-    .projects-cont li {
-      background-color: orange;
-      list-style-type: none;
-    }
+    .projects-cont li { background-color: orange; list-style-type: none; }
 
-    .project-text {
-      background-color: turquoise;
-      font-size: 1.3em;
-    }
+    .project-text { background-color: turquoise; font-size: 1.3em; }
 
-    .projects-cont img {
-      height: 50vh;
-      width: 70vw;
-    }
+    .projects-cont img { height: 50vh; width: 70vw; }
 
-  .footer {
-    margin-bottom: 4em;
-  }
+  .footer { margin-bottom: 4em; }
 
-  .footer-ul li {
-    background-color: turquoise;
-    display: flex;
-    justify-content: center;
-    word-wrap: normal;
-  }
+  .footer-ul li { background-color: turquoise; display: flex; justify-content: center; word-wrap: normal; }
 
-    .copy-p {
-      background-color: red;
-      float: right;
-      font-size: 1.14em;
-      margin-top: 2.5em;
-      text-align: center;
-    }
+    .copy-p { background-color: red; float: right; font-size: 1.14em; margin-top: 2.5em; text-align: center; }
 
 }
