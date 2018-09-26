@@ -80,7 +80,7 @@
 
 @media (min-width: 481px) and (max-width: 767px) {
 
-  body { background-color: turquoise; border: 3.1em solid black; border-radius: 0.6em; border-style: double outset; width: 300vw; }
+  body { background-color: turquoise; margin: 0 auto; width: 300vw; }
 
   /* .main-container {
     width: 100vw;
@@ -145,7 +145,7 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
 
-  body { border: 1.1em solid black; border-radius: 2px; border-style: double outset; }
+ body { margin: 0; padding: 0; }
 
   /* --- */
 
@@ -155,11 +155,11 @@
 
   /* --- */
 
-  .intro { float: left; font-size: 1.25em; height: 11vh; margin: 4em 0 0 0; text-align: center; width: 20vw; }
+  .intro { float: left; font-size: 1.25em; height: 11vh; margin: 3em 0 0 0; text-align: center; }
 
-  .name { font-size: 2.75em; margin-top: 1em; padding: 0.3em; text-align: center; }
+  .name { font-size: 2.75em; height: 35vh; margin-top: 1em; padding: 0.3em; text-align: center; }
 
-  .headline { font-size: 1.75em; padding: 0.3em; text-align: right; }
+  .headline { font-size: 1.75em; padding: 0.3em; text-align: center; }
 
   /* --- */
 
@@ -173,13 +173,13 @@
 
   .tech p { font-size: 2em; text-align: center; text-decoration: underline; }
 
-  .tech-list { display: flex; flex-wrap: wrap; justify-content: center; list-style-type: none; }
+  .tech-list { display: flex; flex-wrap: wrap; justify-content: center; list-style-type: none; margin-right: 3em; }
 
   .text { font-size: 1.1em; text-align: center; }
 
   .tech img { display: block; flex-wrap: wrap; height: 90px; padding: 0.3em; width: 90px; }
 
-  .projects-cont { margin-top: 5em; }
+  .projects-cont { margin-right: 2.8em; margin-top: 5em; }
 
   .projects-cont p { font-size: 2em; text-align: center; text-decoration: underline; }
 
@@ -191,9 +191,13 @@
 
   /* --- */
 
-  .footer { margin-bottom: 4em; }
+  .footer { margin: 3em 0 0 0; }
 
-  .footer-ul li { display: flex; justify-content: center; word-wrap: normal; }
+  .footer-ul { display: flex; flex-wrap: wrap; justify-content: center; max-width: 70%; }
+
+  .footer-ul li { justify-content: center; margin: 0.3em; list-style-type: none; }
+
+  .footer-ul img { height: 20px; padding: 0.2em 0.2em 0 0; width: 20px; }
 
   /* --- */
 
