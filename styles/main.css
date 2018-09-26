@@ -1,22 +1,23 @@
 body {
   background-color: #f2e5ca;
-  font-family: 'FellType';
+  font-family: 'Vollkorn', serif;
+  font-style: normal;
+  font-weight: 300;
   height: auto;
   margin: 0 auto;
   width: auto;
 /*---------- Main Container ---------- */
 /*---------- Top Third ---------- */
-/*---------- Middle Third ---------- */
-/*---------- Bottom Third ---------- */
 }
-body .name {
-  font-family: 'Freakshow';
+.name p {
+  font-family: 'Diplomata', cursive;
 /*---------- Nav ---------- */
+}
+.nav-ul {
+  display: inline-block;
+  list-style-type: none;
 /*---------- Headline ---------- */
 /*---------- Name ---------- */
 }
-body .name .nav-ul {
-  display: inline-block;
-  font-family: 'FellType';
-  list-style-type: none;
-}
+/*---------- Middle Third ---------- */
+/*---------- Bottom Third ---------- */
