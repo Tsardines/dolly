@@ -84,21 +84,21 @@
 
   /* --- */
 
-  .nav-ul { display: flex; }
+  .nav-ul { display: flex; justify-content: center; }
 
-  .nav-ul li { font-size: 3.3em; list-style-type: none; padding: 1em; text-align: center; }
+  .nav-ul li { font-size: 4.3em; list-style-type: none; padding: 1em; text-align: center; }
 
   /* --- */
 
-  .intro { float: left; font-size: 3.42em; margin: 5em 0 0 15em; padding: 1em; position: absolute; text-align: right; }
+  .intro { float: left; font-size: 3.42em; margin: 2em 0 0 15em; position: absolute; text-align: center; }
 
-  .name { float: right; margin-top: 4.5em; padding-left: 45em; position: absolute; width: 140vw; }
+  .name { float: right; height: auto; margin-left: 22em; margin-top: 1.5em; position: absolute; width: 140vw; }
 
-  .name p { font-size: 7.15em; margin-top: 4.5em; padding: 1em; text-align: center; }
+  .name p { font-size: 10.15em; margin-top: 2em; padding: 1em; text-align: center; }
 
-  .headline { float: right; margin-left: 60em; margin-top: 16em; position: absolute; }
+  .headline { float: right; margin-left: 40em; ; margin-top: 16em; position: absolute; text-transform: uppercase; }
 
-  .headline p { font-size: 5.25em; margin-top: 7.75em; padding: 1em; text-align: right; }
+  .headline p { font-size: 5.25em; margin-top: 7.75em; padding: 1em; text-align: center; }
 
   /* --- */
 
@@ -110,7 +110,7 @@
 
   .my-face { background-color: pink; float: right; height: 450px; margin-top: 75em; margin-bottom: 10em; width: 450px; }
 
-  .tech { display: flex; flex-direction: column; margin-left: 15em; padding: 0 15em 0 15em; }
+  .tech { display: flex; flex-direction: column; padding: 0 15em 0 15em; }
 
   .tech p { font-size: 5em; text-align: center; text-decoration: underline; }
 
@@ -118,7 +118,7 @@
 
   .text { font-size: 4.75em; text-align: center; }
 
-  .tech img { display: block;  flex-wrap: wrap;  height: 50vh;  width: 52vw; }
+  .tech img { display: block; flex-wrap: wrap; height: 50vh; padding: 0.83em; width: 52vw; }
 
   .projects-cont p { font-size: 5em; text-align: center; text-decoration: underline; }
 
@@ -138,7 +138,7 @@
 
   .footer-ul li a { color: black; }
 
-  .footer-ul li a:hover { color: white; }
+  .footer-ul li a:hover { color: turquoise; }
 
   .footer-ul img { height: 80px; padding: 0 0.2em 0 0; width: 80px; }
 
@@ -192,13 +192,13 @@
 
   .text { font-size: 1.1em; text-align: center; }
 
-  .tech img { display: block; flex-wrap: wrap; height: 90px; padding: 0.3em; width: 90px; }
+  .tech img { display: block; flex-wrap: wrap; height: 90px; padding: 0.8em; width: 90px; }
 
   .projects-cont { margin-right: 2.8em; margin-top: 5em; }
 
   .projects-cont p { font-size: 2em; text-align: center; text-decoration: underline; }
 
-  .projects-cont img { border: 6px double black; height: 50vh; width: 100%; }
+  .projects-cont img { border: 6px double black; height: auto; width: 100%; }
 
   .projects-cont ul { height: auto; width: auto; }
   .projects-cont li { list-style-type: none; }
@@ -214,7 +214,7 @@
 
   .footer-ul li a { color: black; }
 
-  .footer-ul li a:hover { color: white; }
+  .footer-ul li a:hover { color: turquoise; }
 
   .footer-ul img { height: 20px; padding: 0.2em 0.2em 0 0; width: 20px; }
 
