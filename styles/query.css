@@ -106,11 +106,11 @@
 
   .about { float: left; width: 52%; }
 
-  .about p { font-size: 3em; margin-top: 25em; padding: 0 1em 0 1em; }
+  .about p { border: 27px double black; font-size: 3em; margin-top: 25em; padding: 0 1em 0 1em; }
 
   .my-face { background-color: pink; float: right; height: 450px; margin-top: 75em; margin-bottom: 10em; width: 450px; }
 
-  .tech { margin-left: 15em; padding: 0 15em 0 15em; }
+  .tech { display: flex; flex-direction: column; margin-left: 15em; padding: 0 15em 0 15em; }
 
   .tech p { font-size: 5em; text-align: center; text-decoration: underline; }
 
@@ -130,13 +130,21 @@
 
   /* --- */
 
-  .footer { align-items: center; display: flex; justify-content: space-between; margin-bottom: 4em; }
+  .footer { align-items: center; display: flex; justify-content: center; margin: 6em 0 1em 0; }
 
-  .footer-ul li { display: flex; font-size: 3.8em; justify-content: space-between; padding: 0.25em; }
+  .footer-ul { display: flex; flex-wrap: wrap; justify-content: center; max-width: 70%; }
+
+  .footer-ul li { display: flex; font-size: 3.8em; justify-content: space-between; list-style-type: none; padding: 0.35em; }
+
+  .footer-ul li a { color: black; }
+
+  .footer-ul li a:hover { color: white; }
+
+  .footer-ul img { height: 80px; padding: 0 0.2em 0 0; width: 80px; }
 
   /* --- */
 
-  .copy-p { float: right; font-size: 3.14em; margin-left: 40%; margin-top: 2.5em; text-align: center; width: 100%; }
+  .copy-p { float: right; font-size: 4.14em; margin-left: 40%; margin-top: 2.5em; text-align: center; width: 100%; }
 
 }
 
