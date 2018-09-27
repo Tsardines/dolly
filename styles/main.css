@@ -10,13 +10,17 @@ body {
 /*---------- Top Third ---------- */
 }
 .name-span,
-.headline-span {
+.headline-span,
+.line-one,
+.line-two,
+.line-three {
   font-family: 'Diplomata', cursive;
 /*---------- Nav ---------- */
 }
 .nav-ul {
   display: inline-block;
   list-style-type: none;
+  text-decoration: underline;
 /*---------- Headline ---------- */
 /*---------- Name ---------- */
 }

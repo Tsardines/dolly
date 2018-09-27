@@ -90,27 +90,25 @@
 
   /* --- */
 
-  .name { margin-left: 22em; margin-top: 1.5em; position: absolute; width: auto; }
+  .name { background-color: turquoise; margin-left: 22em; margin-top: 1.5em; position: absolute; width: auto; }
 
   .name-span { font-size: 9.15em; position: relative; right: 0.38em; text-align: center; top: 2em; white-space: nowrap; width: 340vw; }
 
-  .headline { margin-left: 40em; margin-top: 16em; position: absolute; text-transform: uppercase; }
+  .headline { background-color: red; margin-left: 40em; margin-top: 16em; position: absolute; text-transform: uppercase; }
 
   .headline-span { font-size: 6.25em; position: relative; right: 3em; text-align: center; top: 2.75em; white-space: nowrap; }
 
-
-
-  .detail { display: flex; font-size: 5.25em; padding: 4em; position: relative; text-align: center; }
+  .detail { bottom: 5em; font-size: 7.75em; margin: 7em 0 0 0; padding: 0.3em; text-align: center; text-transform: uppercase; }
 
   /* --- */
 
-  .middle-third { display: flex; justify-content: space-around; margin-top: 15em; }
+  .middle-third { display: flex; justify-content: space-around; }
 
   .about { float: left; width: 52%; }
 
-  .about p { border: 27px double black; font-size: 3em; margin-top: 25em; padding: 0 1em 0 1em; }
+  .about p { border: 27px double black; font-size: 5em; margin-top: 25em; padding: 0 1em 0 1em; }
 
-  .my-face { background-color: pink; float: right; height: 450px; margin-top: 75em; margin-bottom: 10em; width: 450px; }
+  .my-face { background-color: pink; float: right; height: 450px; margin-bottom: 10em; margin-top: 150em; width: 450px; }
 
   .tech { display: flex; flex-direction: column; padding: 0 15em 0 15em; }
 
@@ -170,19 +168,19 @@
 
   .nav-ul { display: block; }
 
-  .nav-ul li { float: left; list-style-type: none; padding: 1em; text-align: center; }
+  .nav-ul li { float: left; list-style-type: none; padding: 1em; text-align: center; text-decoration: underline; }
 
   /* --- */
 
   .intro { float: left; font-size: 1.25em; height: 11vh; margin: 3em 0 0 0; text-align: center; }
 
-  .name { font-size: 2.75em; height: 35vh; padding: 0.3em; position: relative; text-align: center; }
+  .name { font-size: 2.75em; height: 30vh; position: relative; text-align: center; }
 
   .name-span { position: absolute; right: 0.2em; text-align: center; top: 2em; }
 
-  .headline { font-size: 1.75em; padding: 0.3em; text-align: center; }
+  .headline { bottom: 5em; font-size: 1.75em; margin-bottom: 2em; padding: 0.3em; text-align: center; }
 
-  .detail { text-transform: uppercase; }
+  .detail { bottom: 5em; font-size: 1.75em; margin-bottom: 4em; padding: 0.3em; text-align: center; text-transform: uppercase; }
 
   /* --- */
 
