@@ -114,7 +114,7 @@
 
   .tech { display: flex; flex-direction: column; padding: 0 15em 0 15em; }
 
-  .tech p { font-size: 5em; text-align: center; text-decoration: underline; }
+  .tech p { font-size: 6em; text-align: center; text-decoration: underline; }
 
   .tech ul { display: flex; flex-wrap: wrap; list-style-type: none; }
 
@@ -124,7 +124,7 @@
 
   .projects-cont { margin-right: 2.8em; margin-top: 5em; }
 
-  .projects-span { font-size: 6em; left: 50%; text-align: center; text-decoration: underline; }
+  .projects-span { display: block; font-size: 6em; text-align: center; text-decoration: underline; width: 100%; }
 
   .projects-cont li { list-style-type: none; margin-left: 2%; }
 
@@ -178,7 +178,7 @@
 
   .name { font-size: 2.75em; height: 35vh; padding: 0.3em; position: relative; text-align: center; }
 
-  .name-span { position: absolute; text-align: center; right: 0.2em; top: 2em; }
+  .name-span { position: absolute; right: 0.2em; text-align: center; top: 2em; }
 
   .headline { font-size: 1.75em; padding: 0.3em; text-align: center; }
 
@@ -204,7 +204,7 @@
 
   .projects-cont { margin-right: 2.8em; margin-top: 5em; }
 
-  .projects-span { font-size: 2em; left: 50%; text-align: center; text-decoration: underline; }
+  .projects-span { display: block; font-size: 2em; left: 50em; text-align: center; text-decoration: underline; width: 100%; }
 
   .projects-cont img { border: 6px double black; height: auto; width: 100%; }
 
