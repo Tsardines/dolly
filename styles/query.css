@@ -122,7 +122,9 @@
 
   .tech img { display: block; flex-wrap: wrap; height: 50vh; padding: 0.83em; width: 52vw; }
 
-  .projects-cont p { font-size: 5em; text-align: center; text-decoration: underline; }
+  .projects-cont { margin-right: 2.8em; margin-top: 5em; }
+
+  .projects-span { font-size: 6em; left: 50%; text-align: center; text-decoration: underline; }
 
   .projects-cont li { list-style-type: none; margin-left: 2%; }
 
@@ -174,9 +176,13 @@
 
   .intro { float: left; font-size: 1.25em; height: 11vh; margin: 3em 0 0 0; text-align: center; }
 
-  .name { font-size: 2.75em; height: 35vh; margin-top: 1em; padding: 0.3em; text-align: center; }
+  .name { font-size: 2.75em; height: 35vh; padding: 0.3em; position: relative; text-align: center; }
+
+  .name-span { position: absolute; text-align: center; right: 0.2em; top: 2em; }
 
   .headline { font-size: 1.75em; padding: 0.3em; text-align: center; }
+
+  .detail { text-transform: uppercase; }
 
   /* --- */
 
@@ -198,7 +204,7 @@
 
   .projects-cont { margin-right: 2.8em; margin-top: 5em; }
 
-  .projects-cont p { font-size: 2em; text-align: center; text-decoration: underline; }
+  .projects-span { font-size: 2em; left: 50%; text-align: center; text-decoration: underline; }
 
   .projects-cont img { border: 6px double black; height: auto; width: 100%; }
 
