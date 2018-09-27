@@ -90,15 +90,17 @@
 
   /* --- */
 
-  .intro { float: left; font-size: 3.42em; margin: 2em 0 0 15em; position: absolute; text-align: center; }
+  .name { margin-left: 22em; margin-top: 1.5em; position: absolute; width: auto; }
 
-  .name { float: right; height: auto; margin-left: 22em; margin-top: 1.5em; position: absolute; width: 140vw; }
+  .name-span { font-size: 9.15em; position: relative; right: 0.38em; text-align: center; top: 2em; white-space: nowrap; width: 340vw; }
 
-  .name p { font-size: 10.15em; margin-top: 2em; padding: 1em; text-align: center; }
+  .headline { margin-left: 40em; margin-top: 16em; position: absolute; text-transform: uppercase; }
 
-  .headline { float: right; margin-left: 40em; ; margin-top: 16em; position: absolute; text-transform: uppercase; }
+  .headline-span { font-size: 6.25em; position: relative; right: 3em; text-align: center; top: 2.75em; white-space: nowrap; }
 
-  .headline p { font-size: 5.25em; margin-top: 7.75em; padding: 1em; text-align: center; }
+
+
+  .detail { display: flex; font-size: 5.25em; padding: 4em; position: relative; text-align: center; }
 
   /* --- */
 
