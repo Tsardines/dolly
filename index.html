@@ -35,7 +35,7 @@
 
       <!-- <div class="intro"><span class="intro-span">Introducing...</span></div> -->
       <div class="name">
-        <span class="name-span">hello people </span>
+        <span class="name-span">Haley J. Sulcer</span>
       </div>
       <div class="headline">
         <span class="headline-span">Web Developer</span>
@@ -139,6 +139,17 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+<script src="circletype.min.js">
+
+var name_circ = new CircleType(document.getElementById('name-span'));
+window.addEventListener('resize', function updateRadius() {
+  name-span.radius(name-span.element.offsetWidth / 2);
+});
+updateRadius();
+
+</script>
+
 </body>
 
 </html>

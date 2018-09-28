@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Tsardines/apothecary#readme",
   "dependencies": {
+    "circletype": "^2.3.0",
     "stylus": "^0.54.5"
   }
 }
