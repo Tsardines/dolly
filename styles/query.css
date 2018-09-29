@@ -28,21 +28,21 @@
 @media (min-width: 1025px) and (max-width: 1280px) {
   body { background-color: orange; width: auto; }
 
-  .nav-ul {}
+  .nav-ul { display: flex; justify-content: center; }
 
-  .nav-ul li {}
+  .nav-ul li { font-size: 3em; padding: 0 1.5em 0 1.5em; text-align: center; }
 
     /* --- */
 
-    .name {  }
+    .name { margin-left: 11em; margin-top: 7em; position: absolute; width: auto; }
 
-    .name-span { }
+    .name-span { background-color: turquoise; font-size: 7em; position: relative; text-align: center; white-space: nowrap; }
 
-    .headline { }
+    .headline { background-color: pink; margin: 16em 0 0 17em;  position: absolute; text-transform: uppercase; }
 
-    .headline-span { }
+    .headline-span { font-size: 5em; position: relative; text-align: center; white-space: nowrap; }
 
-    .detail { }
+    .detail { background-color: green; display: inline-block; font-size: 7em; margin: 4em 0 0 2.5em; text-align: center; }
 
     /* --- */
 
