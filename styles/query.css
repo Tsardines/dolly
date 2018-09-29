@@ -26,11 +26,74 @@
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
+  body { background-color: orange; width: auto; }
 
-  body {
-    background-color: orange;
-    width: auto;
-  }
+  .nav-ul {}
+
+  .nav-ul li {}
+
+    /* --- */
+
+    .name {  }
+
+    .name-span { }
+
+    .headline { }
+
+    .headline-span { }
+
+    .detail { }
+
+    /* --- */
+
+    .middle-third {  }
+
+    .about { }
+
+    .about p { }
+
+    .my-face {  }
+
+    .tech {  }
+
+    .tech p { }
+
+    .tech ul { }
+
+    .text { }
+
+    .tech img { }
+
+    .projects-cont { }
+
+    .projects-span { }
+
+    .projects-cont li {  }
+
+    .projects-cont img { }
+
+    .project-text { }
+
+    /* --- */
+
+    .footer {  }
+
+    .footer-ul { }
+
+    .footer-ul li {  }
+
+    .footer-ul li a { }
+
+    .footer-ul li a:hover {  }
+
+    .footer-ul img { }
+
+    /* --- */
+
+    .copy-p { }
+
+    }
+
 
 }
 
@@ -43,17 +106,8 @@
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-
-  body {
-    background-color: yellow;
-    width: auto;
-  }
-
-
+  body { background-color: yellow; width: auto; }
 }
-
-
-
 
 /*
   ##Device = Tablets, iPads (landscape)
@@ -61,17 +115,8 @@
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-  body {
-    background-color: green;
-    width: auto;
-  }
-
-
+  body { background-color: green; width: auto; }
 }
-
-
-
 
 /*
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
