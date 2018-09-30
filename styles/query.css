@@ -48,21 +48,23 @@
 
     .middle-third { display: flex; justify-content: space-between; }
 
-    .about { float: left; margin-right: 7em; width: 350vw; }
+    .about { float: left; margin: 0 7em 0 16em; }
 
-    .about p { border: 28px double black; font-size: 4em; }
+    .about p { border: 28px double black; font-size: 4em; width: 75vw; }
 
-    .my-face { background-color: pink; float: right; font-size: 10em; height: 90vh; margin-top: 2em; width: 290vw; }
+    .my-face { background-color: pink; float: right; font-size: 7em; height: 90vh; margin-top: 2em; width: 500px; }
 
-    .tech {  }
+    /* --- */
 
-    .tech p { }
+    .tech { background-color: blue; display: flex; flex-direction: column; justify-content: center; margin: 0 50em 0 50em; }
 
-    .tech ul { }
+    .tech p { font-size: 6.75em; text-align: center; text-decoration: underline; }
 
-    .text { }
+    .tech-list { list-style-type: none; }
 
-    .tech img { height: 40vh; width: 43vw; }
+    .text { font-size: 3.25em; text-align: center; }
+
+    .tech img { display: block; flex-wrap: wrap; height: 40vh; padding: 3em; width: 43vw; }
 
     .projects-cont { }
 
@@ -76,17 +78,17 @@
 
     /* --- */
 
-    .footer {  }
+    .footer { margin: 5em 0 0 0; }
 
-    .footer-ul { }
+    .footer-ul { display: inline; flex-wrap: wrap; justify-content: center; max-width: 100%; }
 
-    .footer-ul li {  }
+    .footer-ul li { font-size: 3em; justify-content: center; margin-left: 15em; list-style-type: none; width: 100em; }
 
-    .footer-ul li a { }
+    .footer-ul li a { color: black; }
 
-    .footer-ul li a:hover {  }
+    .footer-ul li a:hover { color: turquoise; }
 
-    .footer-ul img { }
+    .footer-ul img { height: 100px; padding: 0.2em 0.2em 0 0; width: 100px; }
 
     /* --- */
 
@@ -154,6 +156,8 @@
   .about p { border: 27px double black; font-size: 5em; margin-top: 5em; padding: 0 1em 0 1em; }
 
   .my-face { background-color: pink; float: right; height: 450px; margin-bottom: 10em; margin-top: 52em; width: 450px; }
+
+  /* --- */
 
   .tech { display: flex; flex-direction: column; padding: 0 15em 0 15em; }
 
