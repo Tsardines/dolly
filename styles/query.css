@@ -26,7 +26,7 @@
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-  body { background-color: orange; width: auto; }
+  body { background-color: orange; margin-left: 70%; width: auto; }
 
   .nav-ul { display: flex; justify-content: center; }
 
