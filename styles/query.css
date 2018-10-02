@@ -74,7 +74,7 @@
 
     .projects-cont li { list-style-type: none; }
 
-    .projects-cont img { height: 80em; width: auto; }
+    .projects-cont img { border: 30px double black; height: 80em; width: auto; }
 
     .project-text { font-size: 8em; margin-left: 8em; padding-bottom: 2em; text-align: center; white-space: nowrap; }
 
@@ -84,17 +84,17 @@
 
     .footer-ul { display: inline; flex-wrap: wrap; justify-content: center; max-width: 100%; }
 
-    .footer-ul li { font-size: 3em; justify-content: center; margin-left: 15em; list-style-type: none; width: 100em; }
+    .footer-ul li { font-size: 6em; justify-content: center; margin-left: 11em; list-style-type: none; width: 100em; }
 
     .footer-ul li a { color: black; }
 
     .footer-ul li a:hover { color: turquoise; }
 
-    .footer-ul img { height: 100px; padding: 0.2em 0.2em 0 0; width: 100px; }
+    .footer-ul img { height: 50vh; padding: 0.2em 0.2em 0 0; width: 30vw; }
 
     /* --- */
 
-    .copy-p { }
+    .copy-p { float: right; font-size: 6em; margin-left: 60%; margin-top: 2.5em; text-align: center; white-space: nowrap; width: 100%; }
 
     }
 
