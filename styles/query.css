@@ -26,7 +26,7 @@
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-  body { background-color: orange; margin-left: 70%; width: auto; }
+  body { background-color: orange; margin-left: 150%; max-width: 1280px; }
 
   .nav-ul { display: flex; justify-content: center; margin-left: 90em; }
 
@@ -48,33 +48,35 @@
 
     .middle-third { display: flex; justify-content: space-between; }
 
-    .about { float: left; margin: 0 7em 0 16em; }
+    .about { float: left; margin: 0 7em 0 5em; }
 
-    .about p { border: 28px double black; font-size: 4em; width: 75vw; }
+    .about p { border: 28px double black; font-size: 8em; width: 140vw; }
 
-    .my-face { background-color: pink; float: right; font-size: 7em; height: 90vh; margin-top: 2em; width: 500px; }
+    .my-face { background-color: pink; float: right; font-size: 17em; height: 90vh; margin-top: 2em; width: 500px; }
 
     /* --- */
 
-    .tech { background-color: blue; display: flex; flex-direction: column; justify-content: center; margin: 0 50em 0 50em; }
+    .tech { background-color: blue; display: flex; flex-direction: column; margin: 0 50em 0 -10em; }
 
-    .tech p { font-size: 6.75em; text-align: center; text-decoration: underline; }
+    .tech p { font-size: 8em; margin-left: 10em; text-align: center; text-decoration: underline; }
 
-    .tech-list { list-style-type: none; }
+    .tech ul { display: flex; flex-wrap: wrap; list-style-type: none; margin-bottom: 5em; width: 300vw; }
 
-    .text { font-size: 3.25em; text-align: center; }
+    .tech ul li { margin-bottom: 8em; }
 
-    .tech img { display: block; flex-wrap: wrap; height: 40vh; padding: 3em; width: 43vw; }
+    .text { font-size: 6.25em; text-align: center; }
 
-    .projects-cont { }
+    .tech img { display: block; flex-wrap: wrap; height: 70vh; padding: 3em; width: 70vw; }
 
-    .projects-span { }
+    .projects-cont { margin-top: 17em; }
 
-    .projects-cont li {  }
+    .projects-span { display: block; font-size: 10em; margin-left: 6.6em; text-decoration: underline; }
 
-    .projects-cont img { }
+    .projects-cont li { list-style-type: none; }
 
-    .project-text { }
+    .projects-cont img { height: 80em; width: auto; }
+
+    .project-text { font-size: 8em; margin-left: 8em; padding-bottom: 2em; text-align: center; white-space: nowrap; }
 
     /* --- */
 
