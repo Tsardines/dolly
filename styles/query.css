@@ -10,11 +10,11 @@
 
 @media (min-width: 1281px) {
 
-  body { margin-left: 20%; width: auto; }
+  body { margin: 0; padding: 0; }
 
-  .nav-ul { display: flex; justify-content: center; }
+  .nav-ul { display: flex; justify-content: center; margin-left: 90em; }
 
-  .nav-ul li { font-size: 4em; padding: 0 1.5em 0 1.5em; text-align: center; }
+  .nav-ul li { font-size: 8em; padding: 0 1.5em 0 1.5em; text-align: center; }
 
 }
 
@@ -27,59 +27,57 @@
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-  body { margin-left: 20%; width: auto; }
+  body { margin: 0; padding: 0; }
 
-  .nav-ul { display: flex; justify-content: center; }
+  .nav-ul { display: flex; justify-content: center; margin-left: 10em; }
 
   .nav-ul li { font-size: 3em; padding: 0 1.5em 0 1.5em; text-align: center; }
 
     /* --- */
 
+    .top-third { margin-left: 3em; }
+
     .name { margin-top: 7em; position: absolute; width: auto; }
 
-    .name-span { background-color: turquoise; font-size: 4em; position: relative; text-align: center; white-space: nowrap; }
+    .name-span { font-size: 4em; position: relative; text-align: center; white-space: nowrap; }
 
-    .headline { background-color: pink; margin: 15em 0 0 0;  position: absolute; text-transform: uppercase; }
+    .headline { margin: 18em 0 0 0;  position: absolute; text-transform: uppercase; }
 
-    .headline-span { font-size: 3.5em; position: relative; text-align: center; white-space: nowrap; }
+    .headline-span { font-size: 3.25em; position: relative; text-align: center; white-space: nowrap; }
 
-    .detail { background-color: green; display: inline-block; font-size: 3.75em; margin: 6em 0 0 0; text-align: center; }
+    .detail { display: inline-block; font-size: 4.5em; margin: 5em 0 0 0; text-align: center; }
 
     /* --- */
 
     .middle-third { display: flex; justify-content: space-between; }
 
-    .about { float: left; margin: 0 7em 0 5em; }
+    .about { float: left; margin: 0 1em 0 5em; }
 
-    .about p { border: 28px double black; font-size: 3em; width: 45vw; }
+    .about p { border: 20px double black; font-size: 2em; margin-top: 4em; width: 50vw; }
 
-    .my-face { background-color: pink; float: right; font-size: 17em; height: 50vh; margin-top: 0.25em; width: 500px; }
+    .my-face { background-color: pink; float: right; font-size: 3em; height: 30vh; margin-top: 1em; width: 250px; }
 
     /* --- */
 
-    .tech { display: flex; flex-direction: column; margin-right: 20em; }
+    .tech { display: flex; flex-direction: column; margin: 0 50em 0 0; }
 
-    .tech-list { margin-right: 50em; width: 70vw; }
+    .tech p { font-size: 3em; margin-left: 10em; text-align: center; text-decoration: underline; }
 
-    .tech p { font-size: 3em; margin-left: 5em; text-align: center; text-decoration: underline; }
+    .tech ul { display: flex; flex-wrap: wrap; list-style-type: none; margin-bottom: 5em; width: 100vw; }
 
-    .tech ul { display: flex; flex-wrap: wrap; list-style-type: none; margin-bottom: 5em; }
+    .tech ul li { margin-bottom: 8em; }
 
-    .tech ul li { margin-bottom: 4em; }
+    .text { font-size: 2em; text-align: center; }
 
-    .text { font-size: 2.25em; text-align: center; }
+    .tech img { display: block; flex-wrap: wrap; height: 25vh; padding: 1em; width: 25vw; }
 
-    .tech img { display: block; flex-wrap: wrap; height: 20vh; padding: 1.25em; width: 20vw; }
-
-    .projects-cont { margin-top: 17em; }
-
-    .projects-span { display: block; font-size: 10em; margin-left: 6.6em; text-decoration: underline; }
+    .projects-span { display: block; font-size: 3em; margin: 1em 0 1em 10em; text-decoration: underline; }
 
     .projects-cont li { list-style-type: none; }
 
-    .projects-cont img { border: 30px double black; height: 80em; width: auto; }
+    .projects-cont img { border: 30px double black; height: 24em; width: auto; }
 
-    .project-text { font-size: 8em; margin-left: 8em; padding-bottom: 2em; text-align: center; white-space: nowrap; }
+    .project-text { font-size: 3em; margin-right: 3em; padding-bottom: 2em; text-align: center; white-space: nowrap; }
 
     /* --- */
 
@@ -87,17 +85,17 @@
 
     .footer-ul { display: inline; flex-wrap: wrap; justify-content: center; max-width: 100%; }
 
-    .footer-ul li { font-size: 6em; justify-content: center; margin-left: 11em; list-style-type: none; width: 100em; }
+    .footer-ul li { font-size: 2em; justify-content: center; margin-left: 11em; list-style-type: none; width: 100em; }
 
     .footer-ul li a { color: black; }
 
     .footer-ul li a:hover { color: turquoise; }
 
-    .footer-ul img { height: 50vh; padding: 0.2em 0.2em 0 0; width: 30vw; }
+    .footer-ul img { height: 7vh; padding: 0.2em 0.2em 0 0; width: 5vw; }
 
     /* --- */
 
-    .copy-p { float: right; font-size: 6em; margin-left: 60%; margin-top: 2.5em; text-align: center; white-space: nowrap; width: 100%; }
+    .copy-p { float: right; font-size: 2em; margin-left: 60%; margin-top: 2.5em; text-align: center; white-space: nowrap; width: 100%; }
 
     }
 
