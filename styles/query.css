@@ -1,8 +1,3 @@
-
-
-
-
-
 /*
   ##Device = Desktops
   ##Screen = 1281px/89vw to higher resolution desktops
@@ -28,6 +23,8 @@
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   body { margin: 0; padding: 0; }
+
+  .main-container { background-color: turquoise; margin: 0 auto; width: auto; }
 
   .nav-ul { display: flex; justify-content: center; margin-left: 10em; }
 
