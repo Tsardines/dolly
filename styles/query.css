@@ -22,9 +22,9 @@
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-  body { margin: 0; padding: 0; }
+  body { margin: 0; max-width: 100%; overflow-x: hidden; padding: 0; }
 
-  .main-container { background-color: turquoise; margin: 0 auto; width: auto; }
+  .main-container { background-color: turquoise; }
 
   .nav-ul { display: flex; justify-content: center; margin-left: 10em; }
 
