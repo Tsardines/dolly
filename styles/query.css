@@ -48,7 +48,7 @@
 
     .about { float: left; margin: 0 1em 0 5em; }
 
-    .about p { border: 20px double black; font-size: 2em; margin-top: 4em; width: 50vw; }
+    .about p { border: 20px double; font-size: 2em; margin-top: 4em; width: 50vw; }
 
     .my-face { background-color: pink; float: right; font-size: 3em; height: 30vh; margin: 2.75em 1em 0 0; width: 250px; }
 
@@ -151,7 +151,7 @@
 
   .about { float: left; width: 52%; }
 
-  .about p { border: 27px double black; font-size: 5em; margin-top: 5em; padding: 0 1em 0 1em; }
+  .about p { border: 27px double; font-size: 5em; margin-top: 5em; padding: 0 1em 0 1em; }
 
   .my-face { background-color: pink; float: right; height: 450px; margin-bottom: 10em; margin-top: 52em; width: 450px; }
 
@@ -233,7 +233,7 @@
 
   .middle-third { display: flex;  justify-content: space-around; }
 
-  .about { border: 6px double black; margin-top: 1em; padding: 0 1em 0 1em;  width: 40%; }
+  .about { border: 6px double; margin-top: 1em; padding: 0 1em 0 1em;  width: 40%; }
 
   .my-face { background-color: gray; height: 12.5vh; margin: 20% 1.5em 0 0; width: 15vw; }
 

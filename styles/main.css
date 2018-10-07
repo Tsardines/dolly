@@ -1,6 +1,10 @@
 body {
   background-image: url("https://i.imgur.com/iiLjczV.png");
   background-repeat: repeat;
+  border: 15px double #4f4033;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
   font-family: 'Vollkorn', serif;
   font-style: normal;
   font-weight: 300;
@@ -25,7 +29,6 @@ body {
 /*---------- Name ---------- */
 }
 /*---------- Middle Third ---------- */
-/*---------- Bottom Third ---------- */
 .wizard:hover {
   background: url("images\pcwizard0.png");
 }
