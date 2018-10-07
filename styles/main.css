@@ -1,7 +1,7 @@
 body {
   background-image: url("https://i.imgur.com/iiLjczV.png");
   background-repeat: repeat;
-  border: 15px double #4f4033;
+  border: 35px double #4f4033;
   border-bottom: none;
   border-left: none;
   border-right: none;
@@ -16,9 +16,14 @@ body {
 .name-span,
 .headline-span,
 .line-one,
-.line-two,
 .line-three {
   font-family: 'Diplomata', cursive;
+}
+.top-third {
+  border: 15px solid #000;
+  border-left: none;
+  border-right: none;
+  border-top: none;
 /*---------- Nav ---------- */
 }
 .nav-ul {
@@ -29,6 +34,25 @@ body {
 /*---------- Name ---------- */
 }
 /*---------- Middle Third ---------- */
+.middle-third {
+  border: 15px solid #000;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+/*---------- Bottom Third ---------- */
+}
+.tech-list {
+  border: 15px solid #000;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
 .wizard:hover {
   background: url("images\pcwizard0.png");
+}
+.projects-cont {
+  border: 15px solid #000;
+  border-left: none;
+  border-right: none;
+  border-top: none;
 }
