@@ -5,8 +5,7 @@ body {
   border-bottom: none;
   border-left: none;
   border-right: none;
-  font-family: 'Vollkorn', serif;
-  font-style: normal;
+  font-family: 'Damion', cursive;
   font-weight: 300;
   margin: 0;
   padding: 0;
@@ -17,7 +16,7 @@ body {
 .headline-span,
 .line-one,
 .line-three {
-  font-family: 'Diplomata', cursive;
+  font-family: 'Yellowtail', cursive;
 }
 /*---------- Nav ---------- */
 .nav-ul {
