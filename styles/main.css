@@ -19,13 +19,7 @@ body {
 .line-three {
   font-family: 'Diplomata', cursive;
 }
-.top-third {
-  border: 15px solid #000;
-  border-left: none;
-  border-right: none;
-  border-top: none;
 /*---------- Nav ---------- */
-}
 .nav-ul {
   display: inline-block;
   list-style-type: none;
@@ -55,4 +49,10 @@ body {
   border-left: none;
   border-right: none;
   border-top: none;
+}
+.footer-ul li a {
+  color: #000;
+}
+.footer-ul li a:hover {
+  color: #f00;
 }
