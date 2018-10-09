@@ -5,12 +5,8 @@
 
 
 body
-  background-image: url('https://i.imgur.com/iiLjczV.png')
-  background-repeat: repeat
-  border: 35px double #4F4033
-  border-bottom: none
-  border-left: none
-  border-right: none
+  // background-image: url('https://i.imgur.com/iiLjczV.png')
+  // background-repeat: repeat
   // font-family: 'Vollkorn', serif
   // font-style: normal
   font-family: 'Damion', cursive
@@ -22,13 +18,26 @@ body
 
   /*---------- Main Container ---------- */
 
+.main-container
+  margin: 0 auto
 
+/*---------- Nav ---------- */
+
+.nav-ul
+  background-color: turquoise
+  display: inline-block
+  list-style-type: none
+  text-decoration: underline
 
 
   /*---------- Top Third ---------- */
 
 .name-span, .headline-span, .line-one, .line-three
   font-family: 'Yellowtail', cursive
+
+.name-span
+  color: turquoise
+  text-shadow: 4px 2.5px 2.5px black
 
 // .top-third
 //   border: 15px solid black
@@ -38,12 +47,6 @@ body
 
 
 
-  /*---------- Nav ---------- */
-
-.nav-ul
-  display: inline-block
-  list-style-type: none
-  text-decoration: underline
 
     /*---------- Headline ---------- */
 
@@ -57,28 +60,41 @@ body
   border-right: none
   border-top: none
 
+.about
+  transform: skewX(5deg)
+
+.about p
+  border: 20px double black
+  border-radius: 0.5em
+
+.tech-list li:hover
+  color: turquoise
+
 
 
 
   /*---------- Bottom Third ---------- */
 
-.tech-list
-  border: 15px solid black
-  border-left: none
-  border-right: none
-  border-top: none
+.tech-list, .projects-cont
+  border-bottom: 15px double turquoise
+
+.projects-cont img
+  border: 15px double turquoise
+  border-radius: 1.25em
+  transform: skewX(1.5deg)
 
 .wizard:hover
   background: url('images\pcwizard0.png')
 
-.projects-cont
-  border: 15px solid black
-  border-left: none
-  border-right: none
-  border-top: none
+.footer-ul li
+  transform: skewX(5deg)
 
 .footer-ul li a
   color: black
 
 .footer-ul li a:hover
-  color: red
+  color: turquoise
+
+.copy-p
+  background-color: turquoise
+  border-top: 15px double yellow

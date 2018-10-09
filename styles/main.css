@@ -1,15 +1,19 @@
 body {
-  background-image: url("https://i.imgur.com/iiLjczV.png");
-  background-repeat: repeat;
-  border: 35px double #4f4033;
-  border-bottom: none;
-  border-left: none;
-  border-right: none;
   font-family: 'Damion', cursive;
   font-weight: 300;
   margin: 0;
   padding: 0;
 /*---------- Main Container ---------- */
+}
+.main-container {
+  margin: 0 auto;
+}
+/*---------- Nav ---------- */
+.nav-ul {
+  background-color: #40e0d0;
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: underline;
 /*---------- Top Third ---------- */
 }
 .name-span,
@@ -18,40 +22,52 @@ body {
 .line-three {
   font-family: 'Yellowtail', cursive;
 }
-/*---------- Nav ---------- */
-.nav-ul {
-  display: inline-block;
-  list-style-type: none;
-  text-decoration: underline;
+.name-span {
+  color: #40e0d0;
+  text-shadow: 4px 2.5px 2.5px #000;
+}
 /*---------- Headline ---------- */
 /*---------- Name ---------- */
-}
 /*---------- Middle Third ---------- */
 .middle-third {
   border: 15px solid #000;
   border-left: none;
   border-right: none;
   border-top: none;
+}
+.about {
+  transform: skewX(5deg);
+}
+.about p {
+  border: 20px double #000;
+  border-radius: 0.5em;
+}
+.tech-list li:hover {
+  color: #40e0d0;
 /*---------- Bottom Third ---------- */
 }
-.tech-list {
-  border: 15px solid #000;
-  border-left: none;
-  border-right: none;
-  border-top: none;
+.tech-list,
+.projects-cont {
+  border-bottom: 15px double #40e0d0;
+}
+.projects-cont img {
+  border: 15px double #40e0d0;
+  border-radius: 1.25em;
+  transform: skewX(1.5deg);
 }
 .wizard:hover {
   background: url("images\pcwizard0.png");
 }
-.projects-cont {
-  border: 15px solid #000;
-  border-left: none;
-  border-right: none;
-  border-top: none;
+.footer-ul li {
+  transform: skewX(5deg);
 }
 .footer-ul li a {
   color: #000;
 }
 .footer-ul li a:hover {
-  color: #f00;
+  color: #40e0d0;
+}
+.copy-p {
+  background-color: #40e0d0;
+  border-top: 15px double #ff0;
 }

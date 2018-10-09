@@ -24,31 +24,31 @@
 @media (min-width: 1025px) and (max-width: 1280px) {
   body { margin: 0; max-width: 100%; overflow-x: hidden; padding: 0; }
 
-  .nav-ul { display: flex; justify-content: center; }
+  .nav-ul { background-color: turquoise; border: 25px double yellow; border-left: none; border-right: none; border-top: none; display: flex; justify-content: center; }
 
-  .nav-ul li { font-size: 2em; padding: 0 1.5em 0 1.5em; text-align: center; }
-
-    /* --- */
-
-    .top-third { margin-left: 3em; }
-
-    .name { margin-top: 7em; position: absolute; width: auto; }
-
-    .name-span { font-size: 4em; position: relative; text-align: center; white-space: nowrap; }
-
-    .headline { margin: 18em 0 0 0;  position: absolute; text-transform: uppercase; }
-
-    .headline-span { font-size: 3.25em; position: relative; text-align: center; white-space: nowrap; }
-
-    .detail { display: inline-block; font-size: 4.5em; margin: 6em 0 0 0; text-align: center; }
+  .nav-ul li { font-size: 2em; padding: 0.5em; text-align: center; }
 
     /* --- */
 
-    .middle-third { display: flex; justify-content: space-between; padding-bottom: 5em; padding-top: 5em; }
+    .top-third { }
+
+    .name { margin: 7em 0 0 24em; position: absolute; transform: skewX(25deg); width: auto; }
+
+    .name-span { font-size: 7em; position: relative; text-align: center; white-space: nowrap; }
+
+    .headline { margin: 18em 0 10em 30em; position: absolute; transform: skewX(25deg); }
+
+    .headline-span { font-size: 4.25em; position: relative; text-align: center; white-space: nowrap; }
+
+
+
+    /* --- */
+
+    .middle-third { display: flex; justify-content: space-between; margin-top: 20em; padding-bottom: 5em; padding-top: 5em; }
 
     .about { float: left; margin: 0 1em 0 5em; }
 
-    .about p { border: 20px double; font-size: 2em; padding: 0.5em; width: 50vw; }
+    .about p { font-size: 2em; padding: 0.5em; width: 50vw; }
 
     .hello { font-size: 2em; padding-right: 0.15em; }
 
@@ -56,7 +56,7 @@
 
     /* --- */
 
-    .tech { display: flex; flex-direction: column; margin: 0 50em 0 0; }
+    .tech { display: flex; flex-direction: column; justify-content: center; margin: 0 30em 0 0; }
 
     .tech p { font-size: 3em; margin-left: 10em; text-align: center; text-decoration: underline; }
 
@@ -72,7 +72,7 @@
 
     .projects-cont li { list-style-type: none; }
 
-    .projects-cont img { border: 30px double black; height: 24em; width: auto; }
+    .projects-cont img { height: 24em; width: auto; }
 
     .project-text { font-size: 3em; margin-right: 3em; padding-bottom: 2em; text-align: center; white-space: nowrap; }
 
