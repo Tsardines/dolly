@@ -24,15 +24,17 @@
 @media (min-width: 1025px) and (max-width: 1280px) {
   body { margin: 0; max-width: 100%; overflow-x: hidden; padding: 0; }
 
-  .nav-ul { background-color: turquoise; border: 25px double yellow; border-left: none; border-right: none; border-top: none; display: flex; justify-content: center; }
+  .nav-ul { background-color: turquoise; display: flex; justify-content: center; }
 
-  .nav-ul li { font-size: 2em; padding: 0.5em; text-align: center; }
+  .nav-ul li { font-size: 3em; padding: 0.5em; text-align: center; }
+
+  .nav-triangle { height: 16vh; margin-top: -1em; width: 100%; }
 
     /* --- */
 
     .top-third { }
 
-    .name { margin: 7em 0 0 24em; position: absolute; transform: skewX(25deg); width: auto; }
+    .name { margin: 1em 0 0 22em; position: absolute; transform: skewX(25deg); width: auto; }
 
     .name-span { font-size: 7em; position: relative; text-align: center; white-space: nowrap; }
 
@@ -56,9 +58,9 @@
 
     /* --- */
 
-    .tech { display: flex; flex-direction: column; justify-content: center; margin: 0 30em 0 0; }
+    .tech { display: flex; flex-direction: column; justify-content: center; margin: 0 20em 0 0; }
 
-    .tech p { font-size: 3em; margin-left: 10em; text-align: center; text-decoration: underline; }
+    .tech p { font-size: 5em; margin-left: 3.25em; text-align: center; text-decoration: underline; }
 
     .tech ul { display: flex; flex-wrap: wrap; list-style-type: none; margin-bottom: 5em; width: 100vw; }
 
@@ -66,9 +68,9 @@
 
     .text { font-size: 2em; text-align: center; }
 
-    .tech img { display: block; flex-wrap: wrap; height: 20vh; padding: 1em; width: 20vw; }
+    .tech img { display: block; flex-wrap: wrap; height: 15vh; padding: 0.5em; width: 15vw; }
 
-    .projects-span { display: block; font-size: 3em; margin: 1em 0 1em 10em; text-decoration: underline; }
+    .projects-span { display: block; font-size: 5em; margin: 1em 0 1em 6.25em; text-decoration: underline; }
 
     .projects-cont li { list-style-type: none; }
 
@@ -82,7 +84,7 @@
 
     .footer-ul { display: inline; flex-wrap: wrap; justify-content: center; max-width: 100%; }
 
-    .footer-ul li { font-size: 2em; justify-content: center; margin-left: 11em; list-style-type: none; width: 100em; }
+    .footer-ul li { font-size: 2em; justify-content: center; margin-left: 15em; list-style-type: none; width: 100em; }
 
     .footer-ul img { height: 7vh; padding: 0.2em 0.2em 0 0; width: 5vw; }
 

@@ -26,9 +26,20 @@ body
 .nav-ul
   background-color: turquoise
   display: inline-block
+  height: 8em
   list-style-type: none
+  margin-top: 0
   text-decoration: underline
 
+.nav-ul li
+  text-shadow: 1px 1px white
+
+.nav-ul li:hover
+  color: pink
+  text-shadow: 2px 2px black
+
+.nav-triangle
+  background-color: turquoise
 
   /*---------- Top Third ---------- */
 
@@ -39,11 +50,7 @@ body
   color: turquoise
   text-shadow: 4px 2.5px 2.5px black
 
-// .top-third
-//   border: 15px solid black
-//   border-left: none
-//   border-right: none
-//   border-top: none
+
 
 
 
@@ -55,7 +62,7 @@ body
   /*---------- Middle Third ---------- */
 
 .middle-third
-  border: 15px solid black
+  border: 15px double turquoise
   border-left: none
   border-right: none
   border-top: none
@@ -67,6 +74,10 @@ body
   border: 20px double black
   border-radius: 0.5em
 
+.my-face
+  border: 1px solid black
+  border-radius: 0.15em
+
 .tech-list li:hover
   color: turquoise
 
@@ -75,19 +86,22 @@ body
 
   /*---------- Bottom Third ---------- */
 
-.tech-list, .projects-cont
-  border-bottom: 15px double turquoise
+.projects-cont
+  background-color: turquoise
+  border-bottom: 2em solid #566
+  border-radius: 1em
+  border-top: 2em solid #566
 
 .projects-cont img
-  border: 15px double turquoise
+  border: 15px double white
   border-radius: 1.25em
   transform: skewX(1.5deg)
 
+.projects-cont img:hover
+  border: 15px double pink
+
 .wizard:hover
   background: url('images\pcwizard0.png')
-
-.footer-ul li
-  transform: skewX(5deg)
 
 .footer-ul li a
   color: black
