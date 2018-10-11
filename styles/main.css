@@ -10,7 +10,7 @@ body {
 }
 /*---------- Nav ---------- */
 .nav-ul {
-  background-color: #40e0d0;
+  background-color: #48cbec;
   display: inline-block;
   height: 8em;
   list-style-type: none;
@@ -25,7 +25,7 @@ body {
   text-shadow: 2px 2px #000;
 }
 .nav-triangle {
-  background-color: #40e0d0;
+  background-color: #48cbec;
 /*---------- Top Third ---------- */
 }
 .name-span,
@@ -35,14 +35,14 @@ body {
   font-family: 'Yellowtail', cursive;
 }
 .name-span {
-  color: #40e0d0;
+  color: #48cbec;
   text-shadow: 4px 2.5px 2.5px #000;
 /*---------- Headline ---------- */
 /*---------- Name ---------- */
 }
 /*---------- Middle Third ---------- */
 .middle-third {
-  border: 15px double #40e0d0;
+  border: 15px double #48cbec;
   border-left: none;
   border-right: none;
   border-top: none;
@@ -51,22 +51,23 @@ body {
   transform: skewX(5deg);
 }
 .about p {
+  background-color: #fad4b4;
   border: 20px double #000;
   border-radius: 0.5em;
+  text-shadow: 1.35px 1.35px #fff;
 }
 .my-face {
   border: 1px solid #000;
   border-radius: 0.15em;
 }
 .tech-list li:hover {
-  color: #40e0d0;
+  color: #48cbec;
 /*---------- Bottom Third ---------- */
 }
 .projects-cont {
-  background-color: #40e0d0;
-  border-bottom: 2em solid #566;
+  background-color: #48cbec;
   border-radius: 1em;
-  border-top: 2em solid #566;
+  box-shadow: 10px 10px 8px #808080;
 }
 .projects-cont img {
   border: 15px double #fff;
@@ -92,13 +93,17 @@ body {
   top: 5em;
   width: 20%;
 }
+.project-title {
+  border-radius: 1.85em;
+  text-shadow: 2px 2px #fadc50;
+}
 .footer-ul li a {
   color: #000;
 }
 .footer-ul li a:hover {
-  color: #40e0d0;
+  color: #48cbec;
 }
 .copy-p {
-  background-color: #40e0d0;
-  border-top: 15px double #ff0;
+  background-color: #48cbec;
+  border-top: 15px double #ffc57c;
 }
