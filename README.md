@@ -1,2 +1,2 @@
-# apothecary
-This is a single page portfolio that's inspired by vintage apothecary labels and advertisements.
+# Dolly
+This is **Dolly**, a single page portfolio that's inspired by 1950s labels and advertisements.
