@@ -26,29 +26,31 @@
 
   .nav-ul { display: flex; justify-content: center; }
 
-  .nav-ul li { font-size: 2em; padding: 0 1.5em 0 1.5em; text-align: center; }
+  .nav-ul li { font-size: 3em; padding: 0.5em; text-align: center; }
+
+  .nav-triangle { height: 16vh; margin-top: -1em; width: 100%; }
 
     /* --- */
 
-    .top-third { margin-left: 3em; }
+    .top-third { }
 
-    .name { margin-top: 7em; position: absolute; width: auto; }
+    .name { margin: 1em 0 0 22em; position: absolute; transform: skewX(25deg); width: auto; }
 
-    .name-span { font-size: 4em; position: relative; text-align: center; white-space: nowrap; }
+    .name-span { font-size: 7em; position: relative; text-align: center; white-space: nowrap; }
 
-    .headline { margin: 18em 0 0 0;  position: absolute; text-transform: uppercase; }
+    .headline { margin: 18em 0 10em 30em; position: absolute; transform: skewX(25deg); }
 
-    .headline-span { font-size: 3.25em; position: relative; text-align: center; white-space: nowrap; }
+    .headline-span { font-size: 4.25em; position: relative; text-align: center; white-space: nowrap; }
 
-    .detail { display: inline-block; font-size: 4.5em; margin: 6em 0 0 0; text-align: center; }
+
 
     /* --- */
 
-    .middle-third { display: flex; justify-content: space-between; padding-bottom: 5em; padding-top: 5em; }
+    .middle-third { display: flex; justify-content: space-between; margin-top: 20em; padding-bottom: 5em; padding-top: 5em; }
 
     .about { float: left; margin: 0 1em 0 5em; }
 
-    .about p { border: 20px double; font-size: 2em; padding: 0.5em; width: 50vw; }
+    .about p { font-size: 2em; padding: 0.5em; width: 50vw; }
 
     .hello { font-size: 2em; padding-right: 0.15em; }
 
@@ -56,9 +58,11 @@
 
     /* --- */
 
-    .tech { display: flex; flex-direction: column; margin: 0 50em 0 0; }
+    .bottom-third { margin: -5em 0 0 0; }
 
-    .tech p { font-size: 3em; margin-left: 10em; text-align: center; text-decoration: underline; }
+    .tech { display: flex; flex-direction: column; justify-content: center; margin: 0 20em 0 0; }
+
+    .tech p { font-size: 5em; margin-left: 3.25em; text-align: center; text-decoration: underline; }
 
     .tech ul { display: flex; flex-wrap: wrap; list-style-type: none; margin-bottom: 5em; width: 100vw; }
 
@@ -66,29 +70,27 @@
 
     .text { font-size: 2em; text-align: center; }
 
-    .tech img { display: block; flex-wrap: wrap; height: 20vh; padding: 1em; width: 20vw; }
+    .tech img { display: block; flex-wrap: wrap; height: 15vh; padding: 0.5em; width: 15vw; }
 
-    .projects-span { display: block; font-size: 3em; margin: 1em 0 1em 10em; text-decoration: underline; }
+    .projects-span { display: block; font-size: 5em; margin: 1em 0 1em 6.25em; text-decoration: underline; }
 
     .projects-cont li { list-style-type: none; }
 
-    .projects-cont img { border: 30px double black; height: 24em; width: auto; }
+    .projects-cont img { height: 24em; width: auto; }
 
-    .project-text { font-size: 3em; margin-right: 3em; padding-bottom: 2em; text-align: center; white-space: nowrap; }
+    .project-title { font-size: 2.25em; height: 1em; margin: 0 0 3em 0; padding: 0.5em 0 0.5em 0; text-align: center; white-space: nowrap; width: 5em; }
 
     /* --- */
 
-    .footer { margin: 5em 0 0 0; }
-
     .footer-ul { display: inline; flex-wrap: wrap; justify-content: center; max-width: 100%; }
 
-    .footer-ul li { font-size: 2em; justify-content: center; margin-left: 11em; list-style-type: none; width: 100em; }
+    .footer-ul li { font-size: 2em; justify-content: center; margin-left: 15em; list-style-type: none; width: 100em; }
 
     .footer-ul img { height: 7vh; padding: 0.2em 0.2em 0 0; width: 5vw; }
 
     /* --- */
 
-    .copy-p { float: right; font-size: 2em; margin-left: 60%; margin-top: 2.5em; text-align: center; white-space: nowrap; width: 100%; }
+    .copy-p { float: right; font-size: 2em; margin-left: 60%; margin-top: 1.15em; text-align: center; white-space: nowrap; width: 100%; }
 
     }
 
@@ -173,7 +175,7 @@
 
   .projects-cont img { border: 30px double black; height: auto; width: 100%; }
 
-  .project-text { font-size: 5.3em; padding-bottom: 1em; text-align: center; }
+  .project-title { font-size: 5.3em; padding-bottom: 1em; text-align: center; }
 
   /* --- */
 
@@ -249,7 +251,7 @@
 
   .projects-cont ul { height: auto; width: auto; }
   .projects-cont li { list-style-type: none; }
-  .project-text { font-size: 1.3em; text-align: center; }
+  .project-title { font-size: 1.3em; text-align: center; }
 
   /* --- */
 
