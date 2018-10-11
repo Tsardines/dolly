@@ -88,26 +88,37 @@ body
 .projects-cont img
   border: 15px double white
   border-radius: 1.25em
+  position: relative
   transform: skewX(1.5deg)
 
 .projects-cont img:hover
   filter: blur(0.15em) sepia(65%)
-  -webkit-transition: 0.5s -webkit-filter linear
-  -moz-transition: 0.5s -moz-filter linear
-  -moz-transition: 0.5s filter linear
-  -ms-transition: 0.5s -ms-filter linear
-  -o-transition: 0.5s -o-filter linear
-  transition: 0.5s filter linear, 0.5s -webkit-filter linear
-
-.ul-class li
   position: relative
+  -webkit-transition: 0.2s -webkit-filter linear
+  -moz-transition: 0.2s -moz-filter linear
+  -moz-transition: 0.2s filter linear
+  -ms-transition: 0.2s -ms-filter linear
+  -o-transition: 0.2s -o-filter linear
+  transition: 0.2s filter linear, 0.2s -webkit-filter linear
+
+// .ul-class img:hover
+//   visibility: visible
+
+// .ul-class li
+//   position: relative
 
 .proj-info
   font-size: 1.75em
   left: 2em
   position: absolute
   top: 5em
+  visibility: hidden
   width: 20%
+
+.proj-info:hover
+  visibility: visible;
+
+
 
 .project-title
   border-radius: 1.85em

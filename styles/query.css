@@ -58,7 +58,7 @@
 
     /* --- */
 
-    .bottom-third { margin: -5em 0 0 0; }
+    .bottom-third { margin: -2em 0 0 0; }
 
     .tech { display: flex; flex-direction: column; justify-content: center; margin: 0 20em 0 0; }
 
@@ -66,7 +66,7 @@
 
     .tech ul { display: flex; flex-wrap: wrap; list-style-type: none; margin-bottom: 5em; width: 100vw; }
 
-    .tech ul li { margin-bottom: 8em; }
+    .tech ul li { margin-bottom: 2em; }
 
     .text { font-size: 2em; text-align: center; }
 
