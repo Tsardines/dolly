@@ -96,11 +96,32 @@ body
   -o-transition: 0.1s -o-filter linear
   transition: 0.1s filter linear, 0.1s -webkit-filter linear
 
-.proj-info p
-  visibility: hidden // keep this here
+// .ul-class li
+//   height: 50px
+//   width: 300px
+//
+// .ul-class li .proj-info
+//   // visibility: hidden // keep this here
+//   display: none
+//
+// .ul-class li:hover .proj-info
+//   display: block
 
-.proj-info p:hover
-  visibility: visible
+
+#project
+    /*just so we can see it*/
+    height: 50px;
+    width: 300px;
+    background-image: url('images\pcwizard0.png')
+
+#proj-info
+    display: none;
+
+#project:hover #proj-info
+    display:block;
+
+
+
 
 .project-title
   border-radius: 1.85em
