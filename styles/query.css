@@ -34,13 +34,13 @@
 
     .top-third { }
 
-    .name { margin: 1em 0 0 22em; position: absolute; transform: skewX(25deg); width: auto; }
+    .name { margin: 1em 0 0 22em; position: relative; transform: skewX(25deg); }
 
-    .name-span { font-size: 7em; position: relative; text-align: center; white-space: nowrap; }
+    .name-span p { font-size: 7em; margin: 0 auto; position: absolute; text-align: center; white-space: nowrap; }
 
-    .headline { margin: 18em 0 10em 30em; position: absolute; transform: skewX(25deg); }
+    .headline { margin: 11em 0 10em 30em; position: relative; transform: skewX(25deg); }
 
-    .headline-span { font-size: 4.25em; position: relative; text-align: center; white-space: nowrap; }
+    .headline-span { font-size: 4.25em; position: absolute; text-align: center; white-space: nowrap; }
 
     /* --- */
 
@@ -70,11 +70,11 @@
 
     .tech img { display: block; flex-wrap: wrap; height: 15vh; padding: 0.5em; width: 15vw; }
 
+    .projects-cont { position: relative; }
+
     .projects-span { display: block; font-size: 5em; margin: 1em 0 1em 6.25em; text-decoration: underline; }
 
     .projects-cont li { list-style-type: none; }
-
-    .projects-cont { position: relative; }
 
     .projects-cont img { height: 24em; position: relative; width: auto; }
 
