@@ -44,7 +44,7 @@
 
     /* --- */
 
-    .middle-third { display: flex; justify-content: space-between; margin-top: 20em; padding-bottom: 5em; padding-top: 5em; }
+    .middle-third { display: flex; justify-content: space-between; margin-top: 5em; padding-bottom: 5em; padding-top: 5em; }
 
     .about { float: left; margin: 0 1em 0 5em; }
 
@@ -70,19 +70,25 @@
 
     .tech img { display: block; flex-wrap: wrap; height: 15vh; padding: 0.5em; width: 15vw; }
 
-    .projects-cont { position: relative; }
+    /* --- */
+
+    .ul-class li { display: flex; }
+
+    .projects-cont { height: 90vh;  position: relative; }
 
     .projects-span { display: block; font-size: 5em; margin: 1em 0 1em 6.25em; text-decoration: underline; }
 
     .projects-cont li { list-style-type: none; }
 
-    .projects-cont img { height: 24em; position: relative; width: auto; }
-
-    .project-title { font-size: 2.25em; height: 1em; margin: 0 0 3em 0; padding: 0.5em 0 0.5em 0; text-align: center; white-space: nowrap; width: 5em; }
-
-    #proj-info { font-size: 2.15em; margin: -8em 0 0 2em; position: absolute; width: 15em; }
-
     .project { margin: 0 0 3em 0; }
+
+    .projects-cont img { height: 16em; width: auto; }
+
+    /* .project-title { font-size: 2.25em; height: 1em; margin: 0 0 3em 0; padding: 0.5em 0 0.5em 0; text-align: center; white-space: nowrap; width: 5em; } */
+
+    /* .proj-info { font-size: 2.15em; margin: -8em 0 0 2em; position: absolute; width: 15em; } */
+
+
 
     /* --- */
 
