@@ -73,7 +73,7 @@
     /* --- */
 
 
-    .projects-cont { height: 342vh; }
+    .projects-cont { height: 372vh; }
 
     .projects-span { display: block; font-size: 5em; margin: 1em 0 1em 6.25em; text-decoration: underline; }
 
@@ -85,7 +85,7 @@
 
     .project-title { font-size: 2.5em; margin-top: -3em }
 
-    .proj-info { float: right; font-size: 2em; margin: -1em 0 1.75em 0; width: 50%; }
+    .proj-info { float: right; font-size: 2em; margin: -0.5em 0 1.75em 0; width: 50%; }
 
 
 
