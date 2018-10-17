@@ -68,7 +68,7 @@
 
     .text { font-size: 2em; text-align: center; }
 
-    .tech img { display: block; flex-wrap: wrap; height: 15vh; padding: 0.5em; width: 15vw; }
+    .tech img { display: block; flex-wrap: wrap; height: 15vh; padding: 0.1em; width: 15vw; }
 
     /* --- */
 
