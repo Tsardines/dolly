@@ -21,7 +21,11 @@ body {
 .nav-ul li {
   text-shadow: 1px 1px #fff;
 }
-.nav-ul li:hover {
+.nav-ul li a {
+  color: #000;
+}
+.nav-ul li:hover,
+.nav-ul li a:hover {
   color: #ffc0cb;
   text-shadow: 2px 2px #000;
 }
@@ -69,7 +73,7 @@ body {
   box-shadow: 10px 10px 8px #808080;
 }
 .projects-cont img {
-  border: 15px double #fff;
+  border: 10px solid #fff;
   border-radius: 1.25em;
   transform: skewX(1.5deg);
 }
