@@ -73,15 +73,21 @@
     /* --- */
 
 
-    .projects-cont { height: 100vh; }
+    .projects-cont { height: 342vh; }
 
     .projects-span { display: block; font-size: 5em; margin: 1em 0 1em 6.25em; text-decoration: underline; }
 
     .projects-cont li { list-style-type: none; }
 
-    .projects { display: flex; justify-content: space-between; }
+    .projects { display: flex; flex-direction: column; justify-content: space-between; margin-left: 3em; }
 
     .projects-cont img { height: 14em; width: auto; }
+
+    .project-title { font-size: 2.5em; margin-top: -3em }
+
+    .proj-info { float: right; font-size: 2em; margin: 0 0 1.75em 0; width: 50%; }
+
+
 
     /* .project-title { font-size: 2.25em; height: 1em; margin: 0 0 3em 0; padding: 0.5em 0 0.5em 0; text-align: center; white-space: nowrap; width: 5em; } */
 
