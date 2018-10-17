@@ -73,25 +73,9 @@ body {
   border-radius: 1.25em;
   transform: skewX(1.5deg);
 }
-.projects-cont img:hover {
-  filter: blur(0.15em) sepia(65%);
-  -webkit-transition: 0.1s -webkit-filter linear;
-  -moz-transition: 0.1s -moz-filter linear;
-  -moz-transition: 0.1s filter linear;
-  -ms-transition: 0.1s -ms-filter linear;
-  -o-transition: 0.1s -o-filter linear;
-  transition: 0.1s filter linear, 0.1s -webkit-filter linear;
-}
 #project {
-/*just so we can see it*/
-  height: 50px;
+  height: 50vh;
   width: 100px;
-}
-#proj-info {
-  display: none;
-}
-#project:hover #proj-info {
-  display: block;
 }
 .project-title {
   border-radius: 1.85em;
